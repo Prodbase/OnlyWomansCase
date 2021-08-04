@@ -19,17 +19,20 @@ export const HeaderWrapper = styled.header<{ mobile?: boolean }>`
         align-items: center;
         gap: 1rem;
     }
-    
-    a:not(:first-child) {
-        margin: 0 1.5rem;
-        font-size: 2rem;
-        font-weight: 400;
-        color: ${props => props.theme.colors.white};
 
-        :hover {
-            border-bottom: 3px solid #fff;
+    nav {
+        a {
+            margin: 0 1.5rem;
+            font-size: 2rem;
+            font-weight: 400;
+            color: ${props => props.theme.colors.white};
+    
+            :hover {
+                border-bottom: 3px solid #fff;
+            }
         }
     }
+    
 
     svg {
         cursor: pointer;
