@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <FaInstagram size={30} />
         <FaDribbble size={30} />
       </div>
-      <strong>Criar por <a href="https://prodbase.com.br">ProdBase</a></strong>
+      <strong>Criado por <a href="https://prodbase.com.br">ProdBase</a></strong>
     </FooterWrapper>
   )
 }
